@@ -15,6 +15,16 @@
             margin-right: auto;
             width: 100px;
         }
+        #animate{
+            animation: mymove 1.5s infinite;
+            height: 100px;
+      weight:100px;
+            /* animation-direction: normal;   */
+        }
+        @keyframes mymove {
+        100%{transform: rotate(360deg);}
+
+      }
 
     </style>
 
@@ -24,7 +34,7 @@
     <div class="container">
         <h1 style="text-align: center;">I LOVE MY INDIA</h1>
         <hr color="orange"width="350px" size="75px"/>
-        <img src="Chakra.gif"   class="cen">
+        <img src="Chakra.gif"   class="cen" id="animate">
          <hr color="green"width="350px" size="75px"/>
     </div>
     
